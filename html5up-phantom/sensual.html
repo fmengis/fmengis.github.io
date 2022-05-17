@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/html5up-phantom/assets/css/main.css">
+		<noscript><link rel="stylesheet" href="/html5up-phantom/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+
+		<button class="scrollToTopBtn"> <h1> ⬆️ </h1></button>
+
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="/index.html" class="logo">
+									<span class="symbol"><img src="/html5up-phantom/images/sensual logo.jpg" alt="" /></span><span class="title">Online Clothing Store</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="sensual.html">Sensual Co</a></li>
+							<li><a href="Etp.html"> Everything Turf Pros</a></li>
+							<li><a href="turfnv.html">Turf Envy</a></li>
+							<li><a href="resume.html">About Me</a></li>
+							<li><a href="/html5up-phantom/elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Sensual Co</h1>
+							<p>The Sensual Co is an online retail clothing store that creates and customizes the latest fashion trends. 
+							    I spoke with the owner and was able to create his website theme on the imagery of his ideas and helped 
+								shift the visual aspects to a desirable web page that is interactive and easy to navigate. </p>
+							<p>The color pallets were carefully chosen to help create theme brand of this companies page and 
+								for users to easily read the typography and webpage interaction. </p>	
+							<img src="/html5up-phantom/images/sensual pallete 2.png" alt="" /></span>
+							<span class="image main"><img src="/html5up-phantom/images/sensual website.png" alt="" /></span>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							
+							<section>
+								<h2></h2>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/filmon-mengis-7025a8234/" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/fmengis" target="_blank" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="mailto:chadcooper670@gmail.com" target="_blank" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+		<script src="/html5up-phantom/assets/js/breakpoints.min.js"></script>
+		<script src="/html5up-phantom/assets/js/browser.min.js"></script>
+		<script src="/html5up-phantom/assets/js/jquery.min.js"></script>
+		<script src="/html5up-phantom/assets/js/main.js"></script>
+		<script src="/html5up-phantom/assets/js/util.js"></script>
+	
+		<script>
+			var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+			var rootElement = document.documentElement;
+			function handleScroll() {
+			// Do something on scroll
+			var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+			if (rootElement.scrollTop / scrollTotal > 0.8) {
+				// Show button
+				scrollToTopBtn.classList.add("showBtn");
+			} else {
+				// Hide button
+				scrollToTopBtn.classList.remove("showBtn");
+			}
+			}
+			function scrollToTop() {
+			// Scroll to top logic
+			rootElement.scrollTo({
+				top: 0,
+				behavior: "smooth"
+			});
+			}
+			scrollToTopBtn.addEventListener("click", scrollToTop);
+			document.addEventListener("scroll", handleScroll);
+	</script>
+
+	</body>
+</html>
